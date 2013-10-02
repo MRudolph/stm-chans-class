@@ -1,0 +1,14 @@
+name:           stm-chans-class
+version:        0.1
+cabal-version:  >=1.2
+build-type:     Simple
+author:         Maximilian Rudolph
+
+library
+  hs-source-dirs:  src
+  build-depends:   
+                   base >= 4,
+                   stm,
+                   stm-chans
+  ghc-options:     -O2
+  other-modules:   Control.Concurrent.STM.Queue
