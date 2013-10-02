@@ -1,0 +1,27 @@
+Type classes for stm-chans package
+=================================
+
+This library includes common type classes for the data types from the 
+stm and stm-chans package.
+
+Currently there are functions for the following concerns:
+
+Queue
+-----
+
+The Queue class contains functions which are common to all queues.
+To keep this library as simple as possible, it doesn't take into 
+account special cases like unwrapping Maybe-values from closable 
+Streams. To handle this cases, it has type parameters for reading and 
+writing data, which are functional dependend on the queue-type.
+
+The defined instances are for TQueue,TMQueue,TBQueue and TBMQueue.
+
+
+ClosableQueue
+-------------
+
+This class provides methods for closing queues and checking if they 
+are closed.
+
+There are definitions for TMQueue and TBMQueue
