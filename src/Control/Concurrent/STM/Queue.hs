@@ -46,7 +46,6 @@ instance Queue (TBMQueue a) (Maybe a)  a  where
     writeQueue = writeTBMQueue
     unGetQueue = unGetTBMQueue
     isEmptyQueue = isEmptyTBMQueue
---    isFullQueue = isFullTBMQueue
     
 instance Queue (TMQueue a) (Maybe a) a  where
     readQueue = readTMQueue
