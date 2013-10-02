@@ -2,6 +2,8 @@ name:           stm-chans-class
 version:        0.1
 cabal-version:  >=1.2
 build-type:     Simple
+License:        MIT
+License-file:   LICENSE.txt
 author:         Maximilian Rudolph
 
 library
