@@ -13,4 +13,5 @@ library
                    stm,
                    stm-chans
   ghc-options:     -O2
-  other-modules:   Control.Concurrent.STM.Queue
+  other-modules:   Control.Concurrent.STM.Queue,
+                   Control.Concurrent.STM.ClosableQueue

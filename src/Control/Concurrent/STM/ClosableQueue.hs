@@ -1,4 +1,4 @@
-module Control.Concurrent.STM.Queue where
+module Control.Concurrent.STM.ClosableQueue where
 
 import Control.Concurrent.STM
 import Control.Concurrent.STM.TBMQueue
