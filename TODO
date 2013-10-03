@@ -1,3 +1,2 @@
-- do Chan classes
 - fix versions of used libraries in cabal file
 - (maybe in own package) conduit interface

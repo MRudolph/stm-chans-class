@@ -1,5 +1,5 @@
 name:           stm-chans-class
-version:        0.1
+version:        0.2
 cabal-version:  >=1.2
 build-type:     Simple
 License:        MIT
@@ -16,8 +16,10 @@ library
                    stm,
                    stm-chans
   ghc-options:     -O2
-  exposed-modules:   Control.Concurrent.STM.Queue,
-                   Control.Concurrent.STM.ClosableQueue
+  exposed-modules: Control.Concurrent.STM.Queue,
+                   Control.Concurrent.STM.ClosableQueue,
+                   Control.Concurrent.STM.Chan,
+                   Control.Concurrent.STM.ClosableChan
   extra-source-files: README
                       TODO
   
