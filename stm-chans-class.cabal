@@ -6,6 +6,9 @@ License:        MIT
 License-file:   LICENSE.txt
 author:         Maximilian Rudolph
 
+
+  
+  
 library
   hs-source-dirs:  src
   build-depends:   
@@ -13,5 +16,8 @@ library
                    stm,
                    stm-chans
   ghc-options:     -O2
-  other-modules:   Control.Concurrent.STM.Queue,
+  exposed-modules:   Control.Concurrent.STM.Queue,
                    Control.Concurrent.STM.ClosableQueue
+  extra-source-files: README
+                      TODO
+  
